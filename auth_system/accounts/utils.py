@@ -5,55 +5,8 @@ import firebase_admin
 from firebase_admin import credentials, auth
 from django.conf import settings
 from django.contrib.auth import get_user_model
-
-# User = get_user_model()
-
-# try:
-#     cred = credentials.Certificate(settings.FIREBASE_CREDENTIALS_PATH)
-#     firebase_admin.initialize_app(cred)
-# except (ValueError, firebase_admin.exceptions.FirebaseError):
-#     pass
-
-# def verify_firebase_token(id_token):
-#     """
-#     Verify the Firebase ID token and return the user information
-#     """
-#     try:
-#         decoded_token = auth.verify_id_token(id_token)
-#         return decoded_token
-#     except Exception as e:
-#         # Handle invalid token
-#         raise e
-
-# def get_or_create_user_from_firebase(firebase_user):
-#     """
-#     Get existing user or create a new one based on Firebase user data
-#     """
-#     email = firebase_user.get('email')
-#     if not email:
-#         raise ValueError("Firebase user has no email")
-
-#     try:
-#         user = User.objects.get(email=email)
-#     except User.DoesNotExist:
-#         user = User(
-#             email=email,
-#             username=email.split('@')[0], 
-#             is_verified=True 
-#         )
-#         user.set_password(User.objects.make_random_password())
-#         user.save()
-    
-#     return user
-
-
-
-from django.contrib.auth import get_user_model
-import firebase_admin
-from firebase_admin import credentials, auth
 import string
 import random
-from django.conf import settings
 
 User = get_user_model()
 

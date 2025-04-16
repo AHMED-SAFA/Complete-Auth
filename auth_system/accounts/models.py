@@ -7,14 +7,15 @@ import string
 
 
 class User(AbstractUser):
-    email = models.EmailField(_("email address"), unique=True)
-    is_verified = models.BooleanField(default=False)
+    email = models.EmailField(_("email address"), unique=True,)
+    is_verified = models.BooleanField(default=False,)
+    image = models.ImageField(upload_to='profile_images/', null=True, blank=True)
 
     USERNAME_FIELD = "email"
     REQUIRED_FIELDS = ["username"]
 
     def __str__(self):
-        return self.email
+        return f"{self.email}-{self.username}"
 
 
 class VerificationCode(models.Model):

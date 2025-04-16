@@ -9,7 +9,10 @@ import {
   Box,
   Alert,
   CircularProgress,
+  Avatar,
+  InputLabel,
 } from "@mui/material";
+import PhotoCamera from "@mui/icons-material/PhotoCamera";
 
 const Register = () => {
   const [formData, setFormData] = useState({
@@ -18,6 +21,8 @@ const Register = () => {
     password: "",
     password2: "",
   });
+  const [image, setImage] = useState(null);
+  const [previewImage, setPreviewImage] = useState(null);
   const [error, setError] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const { register } = useAuth();
@@ -28,6 +33,20 @@ const Register = () => {
       ...formData,
       [e.target.name]: e.target.value,
     });
+  };
+
+  const handleImageChange = (e) => {
+    const selectedFile = e.target.files[0];
+    if (selectedFile) {
+      setImage(selectedFile);
+
+      // Create a preview URL for the image
+      const reader = new FileReader();
+      reader.onloadend = () => {
+        setPreviewImage(reader.result);
+      };
+      reader.readAsDataURL(selectedFile);
+    }
   };
 
   const handleSubmit = async (e) => {
@@ -42,7 +61,19 @@ const Register = () => {
     }
 
     try {
-      const result = await register(formData);
+      // Create a FormData object to send both text fields and the image
+      const submitData = new FormData();
+      submitData.append("email", formData.email);
+      submitData.append("username", formData.username);
+      submitData.append("password", formData.password);
+      submitData.append("password2", formData.password2);
+
+      // Only append image if one was selected
+      if (image) {
+        submitData.append("image", image);
+      }
+
+      const result = await register(submitData);
       if (result.success) {
         navigate("/verify-email", { state: { email: formData.email } });
         console.log("Registration successful", result);
@@ -51,6 +82,7 @@ const Register = () => {
         setError(
           result.error?.email?.[0] ||
             result.error?.username?.[0] ||
+            result.error?.image?.[0] ||
             "Registration failed. Please try again."
         );
       }
@@ -88,6 +120,38 @@ const Register = () => {
           onSubmit={handleSubmit}
           sx={{ mt: 1, width: "100%" }}
         >
+          {/* Profile Image Upload */}
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              my: 2,
+            }}
+          >
+            <Avatar
+              src={previewImage}
+              sx={{ width: 100, height: 100, mb: 1 }}
+            />
+            <InputLabel htmlFor="upload-image">
+              <input
+                accept="image/*"
+                id="upload-image"
+                type="file"
+                style={{ display: "none" }}
+                onChange={handleImageChange}
+              />
+              <Button
+                variant="outlined"
+                component="span"
+                startIcon={<PhotoCamera />}
+                size="small"
+              >
+                Upload Profile Picture
+              </Button>
+            </InputLabel>
+          </Box>
+
           <TextField
             margin="normal"
             required

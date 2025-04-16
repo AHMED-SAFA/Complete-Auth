@@ -1,3 +1,4 @@
+
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin
 from django.contrib.auth import get_user_model
@@ -11,7 +12,10 @@ class CustomUserAdmin(UserAdmin):
     list_display = ("email", "username", "is_verified", "is_staff", "is_active")
     list_filter = ("is_verified", "is_staff", "is_active")
     fieldsets = (
-        (None, {"fields": ("email", "username", "password")}),
+        (
+            None,
+            {"fields": ("email", "username", "password", "image")},
+        ), 
         (
             "Permissions",
             {
@@ -37,6 +41,7 @@ class CustomUserAdmin(UserAdmin):
                     "username",
                     "password1",
                     "password2",
+                    "image",  
                     "is_verified",
                     "is_staff",
                     "is_active",
@@ -46,9 +51,6 @@ class CustomUserAdmin(UserAdmin):
     )
     search_fields = ("email", "username")
     ordering = ("email",)
-
-
-# If you're using token blacklisting
 
 
 class BlacklistedTokenAdmin(admin.ModelAdmin):

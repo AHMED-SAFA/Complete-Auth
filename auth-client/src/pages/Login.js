@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
@@ -19,24 +18,34 @@ const Login = () => {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [isGoogleLoading, setIsGoogleLoading] = useState(false);
-  const { register, loginWithGoogle } = useAuth();
-  const { login } = useAuth();
+  const [isLoading, setIsLoading] = useState(false);
+  const { login, loginWithGoogle } = useAuth();
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError("");
+    setIsLoading(true);
 
-    const result = await login(email, password);
-    if (result.success) {
-      navigate("/");
-    } else {
-      // Show specific error message for unverified emails
-      if (result.error.includes("verified")) {
-        setError(result.error + " Check your email for the verification code.");
+    try {
+      const result = await login(email, password);
+      if (result.success) {
+        navigate("/");
       } else {
-        setError(result.error);
+        // Show specific error message for unverified emails
+        if (result.error.includes("verified")) {
+          setError(
+            result.error + " Check your email for the verification code."
+          );
+        } else {
+          setError(result.error);
+        }
       }
+    } catch (err) {
+      setError("An unexpected error occurred during login");
+      console.error(err);
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -145,8 +154,16 @@ const Login = () => {
             fullWidth
             variant="contained"
             sx={{ mt: 3, mb: 2 }}
+            disabled={isLoading}
           >
-            Sign In
+            {isLoading ? (
+              <>
+                <CircularProgress size={24} sx={{ mr: 1 }} color="inherit" />
+                Signing In...
+              </>
+            ) : (
+              "Sign In"
+            )}
           </Button>
           <Box sx={{ display: "flex", justifyContent: "space-between" }}>
             <Link to="/register" variant="body2">

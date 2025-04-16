@@ -76,6 +76,22 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -154,14 +170,6 @@
         "description": "django.contrib.auth.admin",
         "isExtraImport": true,
         "detail": "django.contrib.auth.admin",
-        "documentation": {}
-    },
-    {
-        "label": "get_user_model",
-        "importPath": "django.contrib.auth",
-        "description": "django.contrib.auth",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth",
         "documentation": {}
     },
     {
@@ -479,6 +487,14 @@
         "documentation": {}
     },
     {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
         "label": "timedelta",
         "importPath": "datetime",
         "description": "datetime",
@@ -520,22 +536,6 @@
         "documentation": {}
     },
     {
-        "label": "credentials",
-        "importPath": "firebase_admin",
-        "description": "firebase_admin",
-        "isExtraImport": true,
-        "detail": "firebase_admin",
-        "documentation": {}
-    },
-    {
-        "label": "auth",
-        "importPath": "firebase_admin",
-        "description": "firebase_admin",
-        "isExtraImport": true,
-        "detail": "firebase_admin",
-        "documentation": {}
-    },
-    {
         "label": "Response",
         "importPath": "rest_framework.response",
         "description": "rest_framework.response",
@@ -557,6 +557,22 @@
         "description": "rest_framework_simplejwt.exceptions",
         "isExtraImport": true,
         "detail": "rest_framework_simplejwt.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "MultiPartParser",
+        "importPath": "rest_framework.parsers",
+        "description": "rest_framework.parsers",
+        "isExtraImport": true,
+        "detail": "rest_framework.parsers",
+        "documentation": {}
+    },
+    {
+        "label": "FormParser",
+        "importPath": "rest_framework.parsers",
+        "description": "rest_framework.parsers",
+        "isExtraImport": true,
+        "detail": "rest_framework.parsers",
         "documentation": {}
     },
     {
@@ -622,6 +638,31 @@
         "description": "django.utils.html",
         "isExtraImport": true,
         "detail": "django.utils.html",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "ImageFile",
+        "importPath": "django.core.files.images",
+        "description": "django.core.files.images",
+        "isExtraImport": true,
+        "detail": "django.core.files.images",
         "documentation": {}
     },
     {
@@ -835,11 +876,20 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "auth_system.accounts.migrations.0003_user_image",
+        "description": "auth_system.accounts.migrations.0003_user_image",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('accounts', '0002_verificationcode'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='user',\n            name='image',\n            field=models.ImageField(blank=True, null=True, upload_to='profile_images/'),\n        ),",
+        "detail": "auth_system.accounts.migrations.0003_user_image",
+        "documentation": {}
+    },
+    {
         "label": "CustomUserAdmin",
         "kind": 6,
         "importPath": "auth_system.accounts.admin",
         "description": "auth_system.accounts.admin",
-        "peekOfCode": "class CustomUserAdmin(UserAdmin):\n    model = User\n    list_display = (\"email\", \"username\", \"is_verified\", \"is_staff\", \"is_active\")\n    list_filter = (\"is_verified\", \"is_staff\", \"is_active\")\n    fieldsets = (\n        (None, {\"fields\": (\"email\", \"username\", \"password\")}),\n        (\n            \"Permissions\",\n            {\n                \"fields\": (",
+        "peekOfCode": "class CustomUserAdmin(UserAdmin):\n    model = User\n    list_display = (\"email\", \"username\", \"is_verified\", \"is_staff\", \"is_active\")\n    list_filter = (\"is_verified\", \"is_staff\", \"is_active\")\n    fieldsets = (\n        (\n            None,\n            {\"fields\": (\"email\", \"username\", \"password\", \"image\")},\n        ), \n        (",
         "detail": "auth_system.accounts.admin",
         "documentation": {}
     },
@@ -857,7 +907,7 @@
         "kind": 5,
         "importPath": "auth_system.accounts.admin",
         "description": "auth_system.accounts.admin",
-        "peekOfCode": "User = get_user_model()\nclass CustomUserAdmin(UserAdmin):\n    model = User\n    list_display = (\"email\", \"username\", \"is_verified\", \"is_staff\", \"is_active\")\n    list_filter = (\"is_verified\", \"is_staff\", \"is_active\")\n    fieldsets = (\n        (None, {\"fields\": (\"email\", \"username\", \"password\")}),\n        (\n            \"Permissions\",\n            {",
+        "peekOfCode": "User = get_user_model()\nclass CustomUserAdmin(UserAdmin):\n    model = User\n    list_display = (\"email\", \"username\", \"is_verified\", \"is_staff\", \"is_active\")\n    list_filter = (\"is_verified\", \"is_staff\", \"is_active\")\n    fieldsets = (\n        (\n            None,\n            {\"fields\": (\"email\", \"username\", \"password\", \"image\")},\n        ), ",
         "detail": "auth_system.accounts.admin",
         "documentation": {}
     },
@@ -875,7 +925,7 @@
         "kind": 6,
         "importPath": "auth_system.accounts.models",
         "description": "auth_system.accounts.models",
-        "peekOfCode": "class User(AbstractUser):\n    email = models.EmailField(_(\"email address\"), unique=True)\n    is_verified = models.BooleanField(default=False)\n    USERNAME_FIELD = \"email\"\n    REQUIRED_FIELDS = [\"username\"]\n    def __str__(self):\n        return self.email\nclass VerificationCode(models.Model):\n    user = models.ForeignKey(User, on_delete=models.CASCADE)\n    code = models.CharField(max_length=6)",
+        "peekOfCode": "class User(AbstractUser):\n    email = models.EmailField(_(\"email address\"), unique=True,)\n    is_verified = models.BooleanField(default=False,)\n    image = models.ImageField(upload_to='profile_images/', null=True, blank=True)\n    USERNAME_FIELD = \"email\"\n    REQUIRED_FIELDS = [\"username\"]\n    def __str__(self):\n        return f\"{self.email}-{self.username}\"\nclass VerificationCode(models.Model):\n    user = models.ForeignKey(User, on_delete=models.CASCADE)",
         "detail": "auth_system.accounts.models",
         "documentation": {}
     },
@@ -902,7 +952,7 @@
         "kind": 6,
         "importPath": "auth_system.accounts.serializers",
         "description": "auth_system.accounts.serializers",
-        "peekOfCode": "class RegisterSerializer(serializers.ModelSerializer):\n    password = serializers.CharField(\n        write_only=True, required=True, validators=[validate_password]\n    )\n    password2 = serializers.CharField(write_only=True, required=True)\n    class Meta:\n        model = User\n        fields = (\n            \"email\",\n            \"username\",",
+        "peekOfCode": "class RegisterSerializer(serializers.ModelSerializer):\n    password = serializers.CharField(\n        write_only=True, required=True, validators=[validate_password]\n    )\n    password2 = serializers.CharField(write_only=True, required=True)\n    image = serializers.ImageField(required=False)\n    class Meta:\n        model = User\n        fields = (\n            \"email\",",
         "detail": "auth_system.accounts.serializers",
         "documentation": {}
     },
@@ -911,7 +961,7 @@
         "kind": 6,
         "importPath": "auth_system.accounts.serializers",
         "description": "auth_system.accounts.serializers",
-        "peekOfCode": "class UserSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = User\n        fields = (\n            \"id\",\n            \"username\",\n            \"email\",\n            \"is_verified\",\n        )\nclass SetNewPasswordSerializer(serializers.Serializer):",
+        "peekOfCode": "class UserSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = User\n        fields = (\n            \"id\",\n            \"username\",\n            \"email\",\n            \"is_verified\",\n            \"image\"\n        )",
         "detail": "auth_system.accounts.serializers",
         "documentation": {}
     },
@@ -947,7 +997,7 @@
         "kind": 5,
         "importPath": "auth_system.accounts.urls",
         "description": "auth_system.accounts.urls",
-        "peekOfCode": "urlpatterns = [\n    path(\"register/\", RegisterView.as_view(), name=\"register\"),\n    path(\"verify-email/\", VerifyEmail.as_view(), name=\"verify-email\"), \n    path(\"email-verify/\", VerifyEmail.as_view(), name=\"email-verify\"),\n    path(\"login/\", LoginAPIView.as_view(), name=\"login\"),\n    path(\"logout/\", LogoutAPIView.as_view(), name=\"logout\"),\n    path(\n        \"request-reset-email/\",\n        RequestPasswordResetEmail.as_view(),\n        name=\"request-reset-email\",",
+        "peekOfCode": "urlpatterns = [\n    path(\"register/\", RegisterView.as_view(), name=\"register\"),\n    path(\"verify-email/\", VerifyEmail.as_view(), name=\"verify-email\"),\n    path(\"email-verify/\", VerifyEmail.as_view(), name=\"email-verify\"),\n    path(\"login/\", LoginAPIView.as_view(), name=\"login\"),\n    path(\"logout/\", LogoutAPIView.as_view(), name=\"logout\"),\n    path(\n        \"request-reset-email/\",\n        RequestPasswordResetEmail.as_view(),\n        name=\"request-reset-email\",",
         "detail": "auth_system.accounts.urls",
         "documentation": {}
     },
@@ -1010,7 +1060,7 @@
         "kind": 6,
         "importPath": "auth_system.accounts.views",
         "description": "auth_system.accounts.views",
-        "peekOfCode": "class RegisterView(generics.GenericAPIView):\n    serializer_class = RegisterSerializer\n    def post(self, request):\n        serializer = self.serializer_class(data=request.data)\n        serializer.is_valid(raise_exception=True)\n        user = serializer.save()\n        # Generate and send verification code\n        verification_code = VerificationCode.generate_code(user)\n        # Create HTML email\n        context = {",
+        "peekOfCode": "class RegisterView(generics.GenericAPIView):\n    serializer_class = RegisterSerializer\n    parser_classes = (MultiPartParser, FormParser)\n    def post(self, request):\n        serializer = self.serializer_class(data=request.data)\n        serializer.is_valid(raise_exception=True)\n        user = serializer.save()\n        # Generate and send verification code\n        verification_code = VerificationCode.generate_code(user)\n        # Create HTML email",
         "detail": "auth_system.accounts.views",
         "documentation": {}
     },
@@ -1082,7 +1132,7 @@
         "kind": 6,
         "importPath": "auth_system.accounts.views",
         "description": "auth_system.accounts.views",
-        "peekOfCode": "class FirebaseLoginView(APIView):\n    def post(self, request):\n        id_token = request.data.get(\"idToken\")\n        if not id_token:\n            return Response(\n                {\"error\": \"Firebase ID token is required\"},\n                status=status.HTTP_400_BAD_REQUEST,\n            )\n        try:\n            # Verify the Firebase token",
+        "peekOfCode": "class FirebaseLoginView(APIView):\n    def post(self, request):\n        id_token = request.data.get(\"idToken\")\n        # Get additional data sent from frontend\n        photo_url = request.data.get(\"photoURL\")\n        display_name = request.data.get(\"displayName\")\n        email = request.data.get(\"email\")\n        if not id_token:\n            return Response(\n                {\"error\": \"Firebase ID token is required\"},",
         "detail": "auth_system.accounts.views",
         "documentation": {}
     },
@@ -1091,7 +1141,7 @@
         "kind": 6,
         "importPath": "auth_system.accounts.views",
         "description": "auth_system.accounts.views",
-        "peekOfCode": "class UserProfileView(APIView):\n    permission_classes = (IsAuthenticated,)\n    def get(self, request):\n        serializer = UserSerializer(request.user)\n        return Response(serializer.data, status=status.HTTP_200_OK)\n    def patch(self, request):\n        serializer = UserSerializer(request.user, data=request.data, partial=True)\n        if serializer.is_valid():\n            serializer.save()\n            return Response(serializer.data, status=status.HTTP_200_OK)",
+        "peekOfCode": "class UserProfileView(APIView):\n    permission_classes = (IsAuthenticated,)\n    parser_classes = (MultiPartParser, FormParser)\n    def get(self, request):\n        serializer = UserSerializer(request.user)\n        data = serializer.data\n        # Add full URL for image\n        if request.user.image:\n            data[\"image\"] = request.build_absolute_uri(request.user.image.url)\n        return Response(data, status=status.HTTP_200_OK)",
         "detail": "auth_system.accounts.views",
         "documentation": {}
     },
@@ -1109,7 +1159,7 @@
         "kind": 5,
         "importPath": "auth_system.accounts.views",
         "description": "auth_system.accounts.views",
-        "peekOfCode": "User = get_user_model()\nclass RegisterView(generics.GenericAPIView):\n    serializer_class = RegisterSerializer\n    def post(self, request):\n        serializer = self.serializer_class(data=request.data)\n        serializer.is_valid(raise_exception=True)\n        user = serializer.save()\n        # Generate and send verification code\n        verification_code = VerificationCode.generate_code(user)\n        # Create HTML email",
+        "peekOfCode": "User = get_user_model()\nclass RegisterView(generics.GenericAPIView):\n    serializer_class = RegisterSerializer\n    parser_classes = (MultiPartParser, FormParser)\n    def post(self, request):\n        serializer = self.serializer_class(data=request.data)\n        serializer.is_valid(raise_exception=True)\n        user = serializer.save()\n        # Generate and send verification code\n        verification_code = VerificationCode.generate_code(user)",
         "detail": "auth_system.accounts.views",
         "documentation": {}
     },
@@ -1352,7 +1402,7 @@
         "kind": 5,
         "importPath": "auth_system.auth_system.settings",
         "description": "auth_system.auth_system.settings",
-        "peekOfCode": "EMAIL_BACKEND = \"django.core.mail.backends.smtp.EmailBackend\"\nEMAIL_HOST = \"smtp.gmail.com\"  # Replace with your SMTP server\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = \"\"  # Replace with your email\nEMAIL_HOST_PASSWORD = \"\"  # Replace with your email password\nDEFAULT_FROM_EMAIL = \"\"  # Replace with your email\nAUTH_USER_MODEL = \"accounts.User\"\nPASSWORD_RESET_TIMEOUT = 600  # 10 minutes in seconds\nFIREBASE_CREDENTIALS_PATH = BASE_DIR / 'credentials' / 'firebase-adminsdk.json'",
+        "peekOfCode": "EMAIL_BACKEND = \"django.core.mail.backends.smtp.EmailBackend\"\nEMAIL_HOST = \"smtp.gmail.com\"  # Replace with your SMTP server\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = \"ahmedsafa0759@gmail.com\"  # Replace with your email\nEMAIL_HOST_PASSWORD = \"hzfwzhssgbcbisbh\"  # Replace with your email password\nDEFAULT_FROM_EMAIL = \"ahmedsafa0759@gmail.com\"  # Replace with your email\nAUTH_USER_MODEL = \"accounts.User\"\nPASSWORD_RESET_TIMEOUT = 600  # 10 minutes in seconds\nFIREBASE_CREDENTIALS_PATH = BASE_DIR / 'credentials' / 'firebase-adminsdk.json'",
         "detail": "auth_system.auth_system.settings",
         "documentation": {}
     },
@@ -1361,7 +1411,7 @@
         "kind": 5,
         "importPath": "auth_system.auth_system.settings",
         "description": "auth_system.auth_system.settings",
-        "peekOfCode": "EMAIL_HOST = \"smtp.gmail.com\"  # Replace with your SMTP server\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = \"\"  # Replace with your email\nEMAIL_HOST_PASSWORD = \"\"  # Replace with your email password\nDEFAULT_FROM_EMAIL = \"\"  # Replace with your email\nAUTH_USER_MODEL = \"accounts.User\"\nPASSWORD_RESET_TIMEOUT = 600  # 10 minutes in seconds\nFIREBASE_CREDENTIALS_PATH = BASE_DIR / 'credentials' / 'firebase-adminsdk.json'\nFRONTEND_URL = \"http://localhost:3000\"",
+        "peekOfCode": "EMAIL_HOST = \"smtp.gmail.com\"  # Replace with your SMTP server\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = \"ahmedsafa0759@gmail.com\"  # Replace with your email\nEMAIL_HOST_PASSWORD = \"hzfwzhssgbcbisbh\"  # Replace with your email password\nDEFAULT_FROM_EMAIL = \"ahmedsafa0759@gmail.com\"  # Replace with your email\nAUTH_USER_MODEL = \"accounts.User\"\nPASSWORD_RESET_TIMEOUT = 600  # 10 minutes in seconds\nFIREBASE_CREDENTIALS_PATH = BASE_DIR / 'credentials' / 'firebase-adminsdk.json'\nFRONTEND_URL = \"http://localhost:3000\"",
         "detail": "auth_system.auth_system.settings",
         "documentation": {}
     },
@@ -1370,7 +1420,7 @@
         "kind": 5,
         "importPath": "auth_system.auth_system.settings",
         "description": "auth_system.auth_system.settings",
-        "peekOfCode": "EMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = \"\"  # Replace with your email\nEMAIL_HOST_PASSWORD = \"\"  # Replace with your email password\nDEFAULT_FROM_EMAIL = \"\"  # Replace with your email\nAUTH_USER_MODEL = \"accounts.User\"\nPASSWORD_RESET_TIMEOUT = 600  # 10 minutes in seconds\nFIREBASE_CREDENTIALS_PATH = BASE_DIR / 'credentials' / 'firebase-adminsdk.json'\nFRONTEND_URL = \"http://localhost:3000\"",
+        "peekOfCode": "EMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = \"ahmedsafa0759@gmail.com\"  # Replace with your email\nEMAIL_HOST_PASSWORD = \"hzfwzhssgbcbisbh\"  # Replace with your email password\nDEFAULT_FROM_EMAIL = \"ahmedsafa0759@gmail.com\"  # Replace with your email\nAUTH_USER_MODEL = \"accounts.User\"\nPASSWORD_RESET_TIMEOUT = 600  # 10 minutes in seconds\nFIREBASE_CREDENTIALS_PATH = BASE_DIR / 'credentials' / 'firebase-adminsdk.json'\nFRONTEND_URL = \"http://localhost:3000\"",
         "detail": "auth_system.auth_system.settings",
         "documentation": {}
     },
@@ -1379,7 +1429,7 @@
         "kind": 5,
         "importPath": "auth_system.auth_system.settings",
         "description": "auth_system.auth_system.settings",
-        "peekOfCode": "EMAIL_USE_TLS = True\nEMAIL_HOST_USER = \"\"  # Replace with your email\nEMAIL_HOST_PASSWORD = \"\"  # Replace with your email password\nDEFAULT_FROM_EMAIL = \"\"  # Replace with your email\nAUTH_USER_MODEL = \"accounts.User\"\nPASSWORD_RESET_TIMEOUT = 600  # 10 minutes in seconds\nFIREBASE_CREDENTIALS_PATH = BASE_DIR / 'credentials' / 'firebase-adminsdk.json'\nFRONTEND_URL = \"http://localhost:3000\"",
+        "peekOfCode": "EMAIL_USE_TLS = True\nEMAIL_HOST_USER = \"ahmedsafa0759@gmail.com\"  # Replace with your email\nEMAIL_HOST_PASSWORD = \"hzfwzhssgbcbisbh\"  # Replace with your email password\nDEFAULT_FROM_EMAIL = \"ahmedsafa0759@gmail.com\"  # Replace with your email\nAUTH_USER_MODEL = \"accounts.User\"\nPASSWORD_RESET_TIMEOUT = 600  # 10 minutes in seconds\nFIREBASE_CREDENTIALS_PATH = BASE_DIR / 'credentials' / 'firebase-adminsdk.json'\nFRONTEND_URL = \"http://localhost:3000\"",
         "detail": "auth_system.auth_system.settings",
         "documentation": {}
     },
@@ -1388,7 +1438,7 @@
         "kind": 5,
         "importPath": "auth_system.auth_system.settings",
         "description": "auth_system.auth_system.settings",
-        "peekOfCode": "EMAIL_HOST_USER = \"\"  # Replace with your email\nEMAIL_HOST_PASSWORD = \"\"  # Replace with your email password\nDEFAULT_FROM_EMAIL = \"\"  # Replace with your email\nAUTH_USER_MODEL = \"accounts.User\"\nPASSWORD_RESET_TIMEOUT = 600  # 10 minutes in seconds\nFIREBASE_CREDENTIALS_PATH = BASE_DIR / 'credentials' / 'firebase-adminsdk.json'\nFRONTEND_URL = \"http://localhost:3000\"",
+        "peekOfCode": "EMAIL_HOST_USER = \"ahmedsafa0759@gmail.com\"  # Replace with your email\nEMAIL_HOST_PASSWORD = \"hzfwzhssgbcbisbh\"  # Replace with your email password\nDEFAULT_FROM_EMAIL = \"ahmedsafa0759@gmail.com\"  # Replace with your email\nAUTH_USER_MODEL = \"accounts.User\"\nPASSWORD_RESET_TIMEOUT = 600  # 10 minutes in seconds\nFIREBASE_CREDENTIALS_PATH = BASE_DIR / 'credentials' / 'firebase-adminsdk.json'\nFRONTEND_URL = \"http://localhost:3000\"",
         "detail": "auth_system.auth_system.settings",
         "documentation": {}
     },
@@ -1397,7 +1447,7 @@
         "kind": 5,
         "importPath": "auth_system.auth_system.settings",
         "description": "auth_system.auth_system.settings",
-        "peekOfCode": "EMAIL_HOST_PASSWORD = \"\"  # Replace with your email password\nDEFAULT_FROM_EMAIL = \"\"  # Replace with your email\nAUTH_USER_MODEL = \"accounts.User\"\nPASSWORD_RESET_TIMEOUT = 600  # 10 minutes in seconds\nFIREBASE_CREDENTIALS_PATH = BASE_DIR / 'credentials' / 'firebase-adminsdk.json'\nFRONTEND_URL = \"http://localhost:3000\"",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = \"hzfwzhssgbcbisbh\"  # Replace with your email password\nDEFAULT_FROM_EMAIL = \"ahmedsafa0759@gmail.com\"  # Replace with your email\nAUTH_USER_MODEL = \"accounts.User\"\nPASSWORD_RESET_TIMEOUT = 600  # 10 minutes in seconds\nFIREBASE_CREDENTIALS_PATH = BASE_DIR / 'credentials' / 'firebase-adminsdk.json'\nFRONTEND_URL = \"http://localhost:3000\"",
         "detail": "auth_system.auth_system.settings",
         "documentation": {}
     },
@@ -1406,7 +1456,7 @@
         "kind": 5,
         "importPath": "auth_system.auth_system.settings",
         "description": "auth_system.auth_system.settings",
-        "peekOfCode": "DEFAULT_FROM_EMAIL = \"\"  # Replace with your email\nAUTH_USER_MODEL = \"accounts.User\"\nPASSWORD_RESET_TIMEOUT = 600  # 10 minutes in seconds\nFIREBASE_CREDENTIALS_PATH = BASE_DIR / 'credentials' / 'firebase-adminsdk.json'\nFRONTEND_URL = \"http://localhost:3000\"",
+        "peekOfCode": "DEFAULT_FROM_EMAIL = \"ahmedsafa0759@gmail.com\"  # Replace with your email\nAUTH_USER_MODEL = \"accounts.User\"\nPASSWORD_RESET_TIMEOUT = 600  # 10 minutes in seconds\nFIREBASE_CREDENTIALS_PATH = BASE_DIR / 'credentials' / 'firebase-adminsdk.json'\nFRONTEND_URL = \"http://localhost:3000\"",
         "detail": "auth_system.auth_system.settings",
         "documentation": {}
     },
@@ -1451,7 +1501,7 @@
         "kind": 5,
         "importPath": "auth_system.auth_system.urls",
         "description": "auth_system.auth_system.urls",
-        "peekOfCode": "urlpatterns = [\n    path(\"admin/\", admin.site.urls),\n    path(\"api/auth/\", include(\"accounts.urls\")),\n    path(\"api/token/refresh/\", TokenRefreshView.as_view(), name=\"token_refresh\"),\n]",
+        "peekOfCode": "urlpatterns = [\n    path(\"admin/\", admin.site.urls),\n    path(\"api/auth/\", include(\"accounts.urls\")),\n    path(\"api/token/refresh/\", TokenRefreshView.as_view(), name=\"token_refresh\"),\n]\nif settings.DEBUG:\n    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
         "detail": "auth_system.auth_system.urls",
         "documentation": {}
     },
@@ -1527,4 +1577,4 @@
         "detail": "venv.Scripts.fixup_firestore_v1_keywords",
         "documentation": {}
     }
-]                                                                                                                                                                                                                                                                                                                                                                                    
+]

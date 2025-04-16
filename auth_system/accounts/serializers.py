@@ -49,12 +49,14 @@ class RegisterSerializer(serializers.ModelSerializer):
         write_only=True, required=True, validators=[validate_password]
     )
     password2 = serializers.CharField(write_only=True, required=True)
+    image = serializers.ImageField(required=False)
 
     class Meta:
         model = User
         fields = (
             "email",
             "username",
+            "image",
             "password",
             "password2",
         )
@@ -70,6 +72,7 @@ class RegisterSerializer(serializers.ModelSerializer):
         user = User.objects.create(
             username=validated_data["username"],
             email=validated_data["email"],
+            image=validated_data.get("image", None)
         )
 
         user.set_password(validated_data["password"])
@@ -86,6 +89,7 @@ class UserSerializer(serializers.ModelSerializer):
             "username",
             "email",
             "is_verified",
+            "image"
         )
 
 

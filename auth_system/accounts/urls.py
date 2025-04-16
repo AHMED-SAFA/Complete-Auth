@@ -8,15 +8,14 @@ from .views import (
     PasswordTokenCheckAPI,
     SetNewPasswordAPIView,
     FirebaseLoginView,
-     UserProfileView,
+    UserProfileView,
 )
 from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
     path("register/", RegisterView.as_view(), name="register"),
-    path("verify-email/", VerifyEmail.as_view(), name="verify-email"), 
-
+    path("verify-email/", VerifyEmail.as_view(), name="verify-email"),
     path("email-verify/", VerifyEmail.as_view(), name="email-verify"),
     path("login/", LoginAPIView.as_view(), name="login"),
     path("logout/", LogoutAPIView.as_view(), name="logout"),
@@ -38,8 +37,3 @@ urlpatterns = [
     path("firebase-login/", FirebaseLoginView.as_view(), name="firebase-login"),
     path("user/", UserProfileView.as_view(), name="user-profile"),
 ]
-
-
-if settings.DEBUG:
-    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
