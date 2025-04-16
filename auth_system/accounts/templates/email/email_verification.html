@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verify Your Email</title>
+    <style>
+      :root {
+        --primary-color: #7c4dff;
+        --accent-color: #00e5ff;
+        --background-color: #121212;
+        --card-bg: #1e1e1e;
+        --text-color: #f5f6fa;
+        --light-text: #b2bec3;
+        --border-color: #2d3436;
+      }
+
+      body {
+        font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+        color: var(--text-color);
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: var(--background-color);
+        padding: 20px;
+      }
+
+      .container {
+        padding: 30px;
+        border-radius: 16px;
+        background-color: var(--card-bg);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        border: 1px solid var(--border-color);
+      }
+
+      .header {
+        text-align: center;
+        padding-bottom: 20px;
+        margin-bottom: 25px;
+      }
+
+      .header h1 {
+        color: var(--primary-color);
+        font-weight: 700;
+        margin: 0 0 10px 0;
+        font-size: 32px;
+        letter-spacing: -0.5px;
+      }
+
+      .header p {
+        color: var(--light-text);
+        margin: 0;
+        font-size: 16px;
+      }
+
+      .verification-section {
+        background: rgba(124, 77, 255, 0.08);
+        border-radius: 12px;
+        border: 1px solid rgba(124, 77, 255, 0.2);
+        padding: 25px;
+        margin: 30px 0;
+        text-align: center;
+      }
+
+      .verification-code {
+        font-family: "Roboto Mono", monospace;
+        font-size: 32px;
+        font-weight: 700;
+        letter-spacing: 10px;
+        padding: 20px 0;
+        color: var(--accent-color);
+        margin: 15px 0;
+        position: relative;
+        user-select: all;
+      }
+
+      .expiry-badge {
+        display: inline-flex;
+        align-items: center;
+        margin-top: 20px;
+        padding: 8px 16px;
+        background-color: rgba(255, 193, 7, 0.1);
+        color: #ffc107;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 500;
+        gap: 8px;
+      }
+
+      p {
+        color: var(--light-text);
+        font-size: 16px;
+        line-height: 1.7;
+        margin-bottom: 20px;
+      }
+
+      strong {
+        color: var(--text-color);
+        font-weight: 600;
+      }
+
+      .footer {
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid var(--border-color);
+        font-size: 14px;
+        text-align: center;
+        color: var(--light-text);
+        line-height: 1.6;
+      }
+
+      .footer-info {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 12px;
+        font-size: 13px;
+      }
+
+      .brand {
+        font-weight: 700;
+        color: var(--primary-color);
+      }
+
+      @media only screen and (max-width: 480px) {
+        .container {
+          padding: 25px 20px;
+        }
+        .verification-code {
+          font-size: 24px;
+          letter-spacing: 6px;
+          padding: 15px 0;
+        }
+        .header h1 {
+          font-size: 28px;
+        }
+        .footer-info {
+          flex-direction: column;
+          gap: 8px;
+        }
+      }
+    </style>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Verify Your Email</h1>
+        <p>Secure your account with us</p>
+      </div>
+
+      <p>Hello <strong>{{ username }}</strong>,</p>
+
+      <p>
+        Thank you for registering with us! To complete your account setup,
+        please use the following verification code:
+      </p>
+
+      <div class="verification-section">
+        <div class="verification-code" id="verification-code">
+          {{ verification_code }}
+        </div>
+
+        <span class="expiry-badge">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <circle cx="12" cy="12" r="10"></circle>
+            <polyline points="12 6 12 12 16 14"></polyline>
+          </svg>
+          Expires in 10 minutes
+        </span>
+      </div>
+
+      <p>
+        For your security, this code will automatically expire after 10 minutes.
+        If you didn't request this code, please ignore this email or contact our
+        support team immediately.
+      </p>
+
+      <div class="footer">
+        <p>This is an automated message. Please do not reply to this email.</p>
+        <p>{% now "l, F j, Y, g:i A" %}</p>
+        <p>&copy; {% now "Y" %} Your Company. All rights reserved.</p>
+      </div>
+    </div>
+  </body>
+</html>

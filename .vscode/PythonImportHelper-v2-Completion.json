@@ -1,0 +1,1530 @@
+[
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.validators",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.validators",
+        "description": "django.contrib.auth.validators",
+        "detail": "django.contrib.auth.validators",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "UserAdmin",
+        "importPath": "django.contrib.auth.admin",
+        "description": "django.contrib.auth.admin",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.admin",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "gettext_lazy",
+        "importPath": "django.utils.translation",
+        "description": "django.utils.translation",
+        "isExtraImport": true,
+        "detail": "django.utils.translation",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "generics",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "generics",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "TokenObtainPairSerializer",
+        "importPath": "rest_framework_simplejwt.serializers",
+        "description": "rest_framework_simplejwt.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "TokenObtainPairView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
+        "label": "TokenObtainPairView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
+        "label": "TokenRefreshView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
+        "label": "validate_password",
+        "importPath": "django.contrib.auth.password_validation",
+        "description": "django.contrib.auth.password_validation",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.password_validation",
+        "documentation": {}
+    },
+    {
+        "label": "UniqueValidator",
+        "importPath": "rest_framework.validators",
+        "description": "rest_framework.validators",
+        "isExtraImport": true,
+        "detail": "rest_framework.validators",
+        "documentation": {}
+    },
+    {
+        "label": "force_str",
+        "importPath": "django.utils.encoding",
+        "description": "django.utils.encoding",
+        "isExtraImport": true,
+        "detail": "django.utils.encoding",
+        "documentation": {}
+    },
+    {
+        "label": "smart_str",
+        "importPath": "django.utils.encoding",
+        "description": "django.utils.encoding",
+        "isExtraImport": true,
+        "detail": "django.utils.encoding",
+        "documentation": {}
+    },
+    {
+        "label": "force_str",
+        "importPath": "django.utils.encoding",
+        "description": "django.utils.encoding",
+        "isExtraImport": true,
+        "detail": "django.utils.encoding",
+        "documentation": {}
+    },
+    {
+        "label": "smart_bytes",
+        "importPath": "django.utils.encoding",
+        "description": "django.utils.encoding",
+        "isExtraImport": true,
+        "detail": "django.utils.encoding",
+        "documentation": {}
+    },
+    {
+        "label": "DjangoUnicodeDecodeError",
+        "importPath": "django.utils.encoding",
+        "description": "django.utils.encoding",
+        "isExtraImport": true,
+        "detail": "django.utils.encoding",
+        "documentation": {}
+    },
+    {
+        "label": "urlsafe_base64_decode",
+        "importPath": "django.utils.http",
+        "description": "django.utils.http",
+        "isExtraImport": true,
+        "detail": "django.utils.http",
+        "documentation": {}
+    },
+    {
+        "label": "urlsafe_base64_decode",
+        "importPath": "django.utils.http",
+        "description": "django.utils.http",
+        "isExtraImport": true,
+        "detail": "django.utils.http",
+        "documentation": {}
+    },
+    {
+        "label": "urlsafe_base64_encode",
+        "importPath": "django.utils.http",
+        "description": "django.utils.http",
+        "isExtraImport": true,
+        "detail": "django.utils.http",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordResetTokenGenerator",
+        "importPath": "django.contrib.auth.tokens",
+        "description": "django.contrib.auth.tokens",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.tokens",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordResetTokenGenerator",
+        "importPath": "django.contrib.auth.tokens",
+        "description": "django.contrib.auth.tokens",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.tokens",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordResetTokenGenerator",
+        "importPath": "django.contrib.auth.tokens",
+        "description": "django.contrib.auth.tokens",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.tokens",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "firebase_admin",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "firebase_admin",
+        "description": "firebase_admin",
+        "detail": "firebase_admin",
+        "documentation": {}
+    },
+    {
+        "label": "credentials",
+        "importPath": "firebase_admin",
+        "description": "firebase_admin",
+        "isExtraImport": true,
+        "detail": "firebase_admin",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "importPath": "firebase_admin",
+        "description": "firebase_admin",
+        "isExtraImport": true,
+        "detail": "firebase_admin",
+        "documentation": {}
+    },
+    {
+        "label": "credentials",
+        "importPath": "firebase_admin",
+        "description": "firebase_admin",
+        "isExtraImport": true,
+        "detail": "firebase_admin",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "importPath": "firebase_admin",
+        "description": "firebase_admin",
+        "isExtraImport": true,
+        "detail": "firebase_admin",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "TokenError",
+        "importPath": "rest_framework_simplejwt.exceptions",
+        "description": "rest_framework_simplejwt.exceptions",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "RefreshToken",
+        "importPath": "rest_framework_simplejwt.tokens",
+        "description": "rest_framework_simplejwt.tokens",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.tokens",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "EmailMultiAlternatives",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "render_to_string",
+        "importPath": "django.template.loader",
+        "description": "django.template.loader",
+        "isExtraImport": true,
+        "detail": "django.template.loader",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_site",
+        "importPath": "django.contrib.sites.shortcuts",
+        "description": "django.contrib.sites.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.contrib.sites.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jwt",
+        "description": "jwt",
+        "detail": "jwt",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "strip_tags",
+        "importPath": "django.utils.html",
+        "description": "django.utils.html",
+        "isExtraImport": true,
+        "detail": "django.utils.html",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "pathlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "auth-client.node_modules.flatted.python.flatted",
+        "description": "auth-client.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0",
+        "detail": "auth-client.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "auth-client.node_modules.flatted.python.flatted",
+        "description": "auth-client.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0\n    for _ in value:\n        keys.append(i)\n        i += 1\n    return keys",
+        "detail": "auth-client.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "auth-client.node_modules.flatted.python.flatted",
+        "description": "auth-client.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "auth-client.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "auth-client.node_modules.flatted.python.flatted",
+        "description": "auth-client.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "auth-client.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "auth_system.accounts.migrations.0001_initial",
+        "description": "auth_system.accounts.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='User',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "auth_system.accounts.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "auth_system.accounts.migrations.0002_verificationcode",
+        "description": "auth_system.accounts.migrations.0002_verificationcode",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('accounts', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='VerificationCode',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('code', models.CharField(max_length=6)),",
+        "detail": "auth_system.accounts.migrations.0002_verificationcode",
+        "documentation": {}
+    },
+    {
+        "label": "CustomUserAdmin",
+        "kind": 6,
+        "importPath": "auth_system.accounts.admin",
+        "description": "auth_system.accounts.admin",
+        "peekOfCode": "class CustomUserAdmin(UserAdmin):\n    model = User\n    list_display = (\"email\", \"username\", \"is_verified\", \"is_staff\", \"is_active\")\n    list_filter = (\"is_verified\", \"is_staff\", \"is_active\")\n    fieldsets = (\n        (None, {\"fields\": (\"email\", \"username\", \"password\")}),\n        (\n            \"Permissions\",\n            {\n                \"fields\": (",
+        "detail": "auth_system.accounts.admin",
+        "documentation": {}
+    },
+    {
+        "label": "BlacklistedTokenAdmin",
+        "kind": 6,
+        "importPath": "auth_system.accounts.admin",
+        "description": "auth_system.accounts.admin",
+        "peekOfCode": "class BlacklistedTokenAdmin(admin.ModelAdmin):\n    list_display = (\"token\", \"user\", \"blacklisted_at\")\n    search_fields = (\"user__email\", \"user__username\", \"token\")\n    readonly_fields = (\"blacklisted_at\",)\n    def user(self, obj):\n        return obj.user.email if obj.user else None\nadmin.site.register(User, CustomUserAdmin)\nadmin.site.register(VerificationCode)",
+        "detail": "auth_system.accounts.admin",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 5,
+        "importPath": "auth_system.accounts.admin",
+        "description": "auth_system.accounts.admin",
+        "peekOfCode": "User = get_user_model()\nclass CustomUserAdmin(UserAdmin):\n    model = User\n    list_display = (\"email\", \"username\", \"is_verified\", \"is_staff\", \"is_active\")\n    list_filter = (\"is_verified\", \"is_staff\", \"is_active\")\n    fieldsets = (\n        (None, {\"fields\": (\"email\", \"username\", \"password\")}),\n        (\n            \"Permissions\",\n            {",
+        "detail": "auth_system.accounts.admin",
+        "documentation": {}
+    },
+    {
+        "label": "AccountsConfig",
+        "kind": 6,
+        "importPath": "auth_system.accounts.apps",
+        "description": "auth_system.accounts.apps",
+        "peekOfCode": "class AccountsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'accounts'",
+        "detail": "auth_system.accounts.apps",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "auth_system.accounts.models",
+        "description": "auth_system.accounts.models",
+        "peekOfCode": "class User(AbstractUser):\n    email = models.EmailField(_(\"email address\"), unique=True)\n    is_verified = models.BooleanField(default=False)\n    USERNAME_FIELD = \"email\"\n    REQUIRED_FIELDS = [\"username\"]\n    def __str__(self):\n        return self.email\nclass VerificationCode(models.Model):\n    user = models.ForeignKey(User, on_delete=models.CASCADE)\n    code = models.CharField(max_length=6)",
+        "detail": "auth_system.accounts.models",
+        "documentation": {}
+    },
+    {
+        "label": "VerificationCode",
+        "kind": 6,
+        "importPath": "auth_system.accounts.models",
+        "description": "auth_system.accounts.models",
+        "peekOfCode": "class VerificationCode(models.Model):\n    user = models.ForeignKey(User, on_delete=models.CASCADE)\n    code = models.CharField(max_length=6)\n    created_at = models.DateTimeField(auto_now_add=True)\n    expires_at = models.DateTimeField()\n    @classmethod\n    def generate_code(cls, user):\n        # Delete any existing codes for this user\n        cls.objects.filter(user=user).delete()\n        # Generate a 6-digit code",
+        "detail": "auth_system.accounts.models",
+        "documentation": {}
+    },
+    {
+        "label": "MyTokenObtainPairSerializer",
+        "kind": 6,
+        "importPath": "auth_system.accounts.serializers",
+        "description": "auth_system.accounts.serializers",
+        "peekOfCode": "class MyTokenObtainPairSerializer(TokenObtainPairSerializer):\n    @classmethod\n    def get_token(cls, user):\n        token = super().get_token(user)\n        # Add custom claims\n        token[\"username\"] = user.username\n        token[\"email\"] = user.email\n        token[\"is_verified\"] = user.is_verified\n        return token\n    def validate(self, attrs):",
+        "detail": "auth_system.accounts.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterSerializer",
+        "kind": 6,
+        "importPath": "auth_system.accounts.serializers",
+        "description": "auth_system.accounts.serializers",
+        "peekOfCode": "class RegisterSerializer(serializers.ModelSerializer):\n    password = serializers.CharField(\n        write_only=True, required=True, validators=[validate_password]\n    )\n    password2 = serializers.CharField(write_only=True, required=True)\n    class Meta:\n        model = User\n        fields = (\n            \"email\",\n            \"username\",",
+        "detail": "auth_system.accounts.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "UserSerializer",
+        "kind": 6,
+        "importPath": "auth_system.accounts.serializers",
+        "description": "auth_system.accounts.serializers",
+        "peekOfCode": "class UserSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = User\n        fields = (\n            \"id\",\n            \"username\",\n            \"email\",\n            \"is_verified\",\n        )\nclass SetNewPasswordSerializer(serializers.Serializer):",
+        "detail": "auth_system.accounts.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "SetNewPasswordSerializer",
+        "kind": 6,
+        "importPath": "auth_system.accounts.serializers",
+        "description": "auth_system.accounts.serializers",
+        "peekOfCode": "class SetNewPasswordSerializer(serializers.Serializer):\n    password = serializers.CharField(min_length=6, max_length=68, write_only=True)\n    password2 = serializers.CharField(min_length=6, max_length=68, write_only=True)\n    token = serializers.CharField(min_length=1, write_only=True)\n    uidb64 = serializers.CharField(min_length=1, write_only=True)\n    class Meta:\n        fields = [\"password\", \"password2\", \"token\", \"uidb64\"]\n    def validate(self, attrs):\n        try:\n            password = attrs.get(\"password\")",
+        "detail": "auth_system.accounts.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "VerifyEmailSerializer",
+        "kind": 6,
+        "importPath": "auth_system.accounts.serializers",
+        "description": "auth_system.accounts.serializers",
+        "peekOfCode": "class VerifyEmailSerializer(serializers.Serializer):\n    email = serializers.EmailField()\n    code = serializers.CharField(max_length=6)\n    def validate(self, attrs):\n        email = attrs.get(\"email\")\n        code = attrs.get(\"code\")\n        try:\n            user = User.objects.get(email=email)\n            verification_code = VerificationCode.objects.filter(\n                user=user, code=code",
+        "detail": "auth_system.accounts.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 5,
+        "importPath": "auth_system.accounts.serializers",
+        "description": "auth_system.accounts.serializers",
+        "peekOfCode": "User = get_user_model()\nclass MyTokenObtainPairSerializer(TokenObtainPairSerializer):\n    @classmethod\n    def get_token(cls, user):\n        token = super().get_token(user)\n        # Add custom claims\n        token[\"username\"] = user.username\n        token[\"email\"] = user.email\n        token[\"is_verified\"] = user.is_verified\n        return token",
+        "detail": "auth_system.accounts.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "auth_system.accounts.urls",
+        "description": "auth_system.accounts.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"register/\", RegisterView.as_view(), name=\"register\"),\n    path(\"verify-email/\", VerifyEmail.as_view(), name=\"verify-email\"), \n    path(\"email-verify/\", VerifyEmail.as_view(), name=\"email-verify\"),\n    path(\"login/\", LoginAPIView.as_view(), name=\"login\"),\n    path(\"logout/\", LogoutAPIView.as_view(), name=\"logout\"),\n    path(\n        \"request-reset-email/\",\n        RequestPasswordResetEmail.as_view(),\n        name=\"request-reset-email\",",
+        "detail": "auth_system.accounts.urls",
+        "documentation": {}
+    },
+    {
+        "label": "TimeLimitedPasswordResetTokenGenerator",
+        "kind": 6,
+        "importPath": "auth_system.accounts.utils",
+        "description": "auth_system.accounts.utils",
+        "peekOfCode": "class TimeLimitedPasswordResetTokenGenerator(PasswordResetTokenGenerator):\n    def __init__(self):\n        super().__init__()\n        self.timeout = timedelta(minutes=10)  # 10 minutes expiration\n    def _make_hash_value(self, user, timestamp):\n        # Include the timeout in the hash value\n        return str(user.pk) + str(user.password) + str(timestamp) + str(self.timeout.total_seconds())\n    def check_token(self, user, token):\n        # First check if the token is valid\n        if not super().check_token(user, token):",
+        "detail": "auth_system.accounts.utils",
+        "documentation": {}
+    },
+    {
+        "label": "verify_firebase_token",
+        "kind": 2,
+        "importPath": "auth_system.accounts.utils",
+        "description": "auth_system.accounts.utils",
+        "peekOfCode": "def verify_firebase_token(id_token):\n    \"\"\"Verify the Firebase ID token and return the user info\"\"\"\n    try:\n        decoded_token = auth.verify_id_token(id_token, app=firebase_app)\n        return decoded_token\n    except Exception as e:\n        raise ValueError(f\"Invalid Firebase token: {str(e)}\")\ndef generate_random_password(length=12):\n    \"\"\"Generate a random password\"\"\"\n    characters = string.ascii_letters + string.digits + string.punctuation",
+        "detail": "auth_system.accounts.utils",
+        "documentation": {}
+    },
+    {
+        "label": "generate_random_password",
+        "kind": 2,
+        "importPath": "auth_system.accounts.utils",
+        "description": "auth_system.accounts.utils",
+        "peekOfCode": "def generate_random_password(length=12):\n    \"\"\"Generate a random password\"\"\"\n    characters = string.ascii_letters + string.digits + string.punctuation\n    return ''.join(random.choice(characters) for i in range(length))\ndef get_or_create_user_from_firebase(firebase_user):\n    \"\"\"Get or create a user from Firebase user data\"\"\"\n    email = firebase_user.get('email')\n    if not email:\n        raise ValueError(\"Firebase user has no email\")\n    # Try to get existing user by email",
+        "detail": "auth_system.accounts.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_or_create_user_from_firebase",
+        "kind": 2,
+        "importPath": "auth_system.accounts.utils",
+        "description": "auth_system.accounts.utils",
+        "peekOfCode": "def get_or_create_user_from_firebase(firebase_user):\n    \"\"\"Get or create a user from Firebase user data\"\"\"\n    email = firebase_user.get('email')\n    if not email:\n        raise ValueError(\"Firebase user has no email\")\n    # Try to get existing user by email\n    try:\n        user = User.objects.get(email=email)\n        # If user exists but wasn't created via Firebase, update their attributes\n        if not user.is_verified:",
+        "detail": "auth_system.accounts.utils",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 5,
+        "importPath": "auth_system.accounts.utils",
+        "description": "auth_system.accounts.utils",
+        "peekOfCode": "User = get_user_model()\n# Initialize Firebase Admin SDK (you need to configure this with your Firebase credentials)\n# Make sure this is only initialized once\ntry:\n    firebase_app = firebase_admin.get_app()\nexcept ValueError:\n    # Use your own Firebase credentials file path\n    cred = credentials.Certificate(settings.FIREBASE_CREDENTIALS_PATH)\n    firebase_app = firebase_admin.initialize_app(cred)\ndef verify_firebase_token(id_token):",
+        "detail": "auth_system.accounts.utils",
+        "documentation": {}
+    },
+    {
+        "label": "password_reset_token",
+        "kind": 5,
+        "importPath": "auth_system.accounts.utils",
+        "description": "auth_system.accounts.utils",
+        "peekOfCode": "password_reset_token = TimeLimitedPasswordResetTokenGenerator()",
+        "detail": "auth_system.accounts.utils",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterView",
+        "kind": 6,
+        "importPath": "auth_system.accounts.views",
+        "description": "auth_system.accounts.views",
+        "peekOfCode": "class RegisterView(generics.GenericAPIView):\n    serializer_class = RegisterSerializer\n    def post(self, request):\n        serializer = self.serializer_class(data=request.data)\n        serializer.is_valid(raise_exception=True)\n        user = serializer.save()\n        # Generate and send verification code\n        verification_code = VerificationCode.generate_code(user)\n        # Create HTML email\n        context = {",
+        "detail": "auth_system.accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "VerifyEmail",
+        "kind": 6,
+        "importPath": "auth_system.accounts.views",
+        "description": "auth_system.accounts.views",
+        "peekOfCode": "class VerifyEmail(generics.GenericAPIView):\n    serializer_class = VerifyEmailSerializer\n    def post(self, request):\n        serializer = self.serializer_class(data=request.data)\n        serializer.is_valid(raise_exception=True)\n        user = serializer.validated_data[\"user\"]\n        user.is_verified = True\n        user.save()\n        # Delete the used verification code\n        verification_code = VerificationCode.objects.filter(user=user).first()",
+        "detail": "auth_system.accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "LoginAPIView",
+        "kind": 6,
+        "importPath": "auth_system.accounts.views",
+        "description": "auth_system.accounts.views",
+        "peekOfCode": "class LoginAPIView(TokenObtainPairView):\n    serializer_class = MyTokenObtainPairSerializer\n    def post(self, request, *args, **kwargs):\n        try:\n            user = User.objects.get(email=request.data.get(\"email\", \"\"))\n            if not user.is_verified:\n                # Generate a new verification code for convenience\n                verification_code = VerificationCode.generate_code(user)\n                # Create HTML email\n                context = {",
+        "detail": "auth_system.accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "LogoutAPIView",
+        "kind": 6,
+        "importPath": "auth_system.accounts.views",
+        "description": "auth_system.accounts.views",
+        "peekOfCode": "class LogoutAPIView(APIView):\n    permission_classes = (IsAuthenticated,)\n    def post(self, request):\n        try:\n            refresh_token = request.data.get(\"refresh_token\")\n            if not refresh_token:\n                return Response(\n                    {\"error\": \"Refresh token is required\"},\n                    status=status.HTTP_400_BAD_REQUEST,\n                )",
+        "detail": "auth_system.accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "SetNewPasswordAPIView",
+        "kind": 6,
+        "importPath": "auth_system.accounts.views",
+        "description": "auth_system.accounts.views",
+        "peekOfCode": "class SetNewPasswordAPIView(generics.GenericAPIView):\n    serializer_class = SetNewPasswordSerializer\n    def patch(self, request):\n        serializer = self.serializer_class(data=request.data)\n        serializer.is_valid(raise_exception=True)\n        return Response(\n            {\"success\": True, \"message\": \"Password reset successful\"},\n            status=status.HTTP_200_OK,\n        )\nclass TokenRefreshView(generics.GenericAPIView):",
+        "detail": "auth_system.accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "TokenRefreshView",
+        "kind": 6,
+        "importPath": "auth_system.accounts.views",
+        "description": "auth_system.accounts.views",
+        "peekOfCode": "class TokenRefreshView(generics.GenericAPIView):\n    def post(self, request):\n        refresh_token = request.data.get(\"refresh\")\n        if not refresh_token:\n            return Response(\n                {\"error\": \"Refresh token is required\"},\n                status=status.HTTP_400_BAD_REQUEST,\n            )\n        try:\n            refresh = RefreshToken(refresh_token)",
+        "detail": "auth_system.accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "RequestPasswordResetEmail",
+        "kind": 6,
+        "importPath": "auth_system.accounts.views",
+        "description": "auth_system.accounts.views",
+        "peekOfCode": "class RequestPasswordResetEmail(generics.GenericAPIView):\n    def post(self, request):\n        email = request.data.get(\"email\")\n        if not email:\n            return Response(\n                {\"error\": \"Email is required\"},\n                status=status.HTTP_400_BAD_REQUEST,\n            )\n        if User.objects.filter(email=email).exists():\n            user = User.objects.get(email=email)",
+        "detail": "auth_system.accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordTokenCheckAPI",
+        "kind": 6,
+        "importPath": "auth_system.accounts.views",
+        "description": "auth_system.accounts.views",
+        "peekOfCode": "class PasswordTokenCheckAPI(generics.GenericAPIView):\n    def get(self, request, uidb64, token):\n        try:\n            id = force_str(urlsafe_base64_decode(uidb64))\n            user = User.objects.get(id=id)\n            if not PasswordResetTokenGenerator().check_token(user, token):\n                return Response(\n                    {\"error\": \"Token is invalid or expired\"},\n                    status=status.HTTP_401_UNAUTHORIZED,\n                )",
+        "detail": "auth_system.accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "FirebaseLoginView",
+        "kind": 6,
+        "importPath": "auth_system.accounts.views",
+        "description": "auth_system.accounts.views",
+        "peekOfCode": "class FirebaseLoginView(APIView):\n    def post(self, request):\n        id_token = request.data.get(\"idToken\")\n        if not id_token:\n            return Response(\n                {\"error\": \"Firebase ID token is required\"},\n                status=status.HTTP_400_BAD_REQUEST,\n            )\n        try:\n            # Verify the Firebase token",
+        "detail": "auth_system.accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserProfileView",
+        "kind": 6,
+        "importPath": "auth_system.accounts.views",
+        "description": "auth_system.accounts.views",
+        "peekOfCode": "class UserProfileView(APIView):\n    permission_classes = (IsAuthenticated,)\n    def get(self, request):\n        serializer = UserSerializer(request.user)\n        return Response(serializer.data, status=status.HTTP_200_OK)\n    def patch(self, request):\n        serializer = UserSerializer(request.user, data=request.data, partial=True)\n        if serializer.is_valid():\n            serializer.save()\n            return Response(serializer.data, status=status.HTTP_200_OK)",
+        "detail": "auth_system.accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "ResendVerificationCodeView",
+        "kind": 6,
+        "importPath": "auth_system.accounts.views",
+        "description": "auth_system.accounts.views",
+        "peekOfCode": "class ResendVerificationCodeView(APIView):\n    def post(self, request):\n        email = request.data.get(\"email\")\n        if not email:\n            return Response(\n                {\"error\": \"Email is required\"}, status=status.HTTP_400_BAD_REQUEST\n            )\n        try:\n            user = User.objects.get(email=email)\n            if user.is_verified:",
+        "detail": "auth_system.accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 5,
+        "importPath": "auth_system.accounts.views",
+        "description": "auth_system.accounts.views",
+        "peekOfCode": "User = get_user_model()\nclass RegisterView(generics.GenericAPIView):\n    serializer_class = RegisterSerializer\n    def post(self, request):\n        serializer = self.serializer_class(data=request.data)\n        serializer.is_valid(raise_exception=True)\n        user = serializer.save()\n        # Generate and send verification code\n        verification_code = VerificationCode.generate_code(user)\n        # Create HTML email",
+        "detail": "auth_system.accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.asgi",
+        "description": "auth_system.auth_system.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "auth_system.auth_system.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = \"django-insecure-h4v=)fd8a3jg&^)g_855^)9hdg_ud%$yw*4rg)sqz_+1h^)s&a\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "SECRET_KEY = \"django-insecure-h4v=)fd8a3jg&^)g_855^)9hdg_ud%$yw*4rg)sqz_+1h^)s&a\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    # Third party",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    # Third party\n    \"rest_framework\",\n    'firebase_admin',",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    \"django.middleware.security.SecurityMiddleware\",\n    \"django.contrib.sessions.middleware.SessionMiddleware\",\n    \"corsheaders.middleware.CorsMiddleware\",\n    \"django.middleware.common.CommonMiddleware\",\n    \"django.middleware.csrf.CsrfViewMiddleware\",\n    \"django.contrib.auth.middleware.AuthenticationMiddleware\",\n    \"django.contrib.messages.middleware.MessageMiddleware\",\n    \"django.middleware.clickjacking.XFrameOptionsMiddleware\",\n]",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "ROOT_URLCONF = \"auth_system.urls\"\nTEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [\n              BASE_DIR / 'accounts' / 'templates',\n        ],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [\n              BASE_DIR / 'accounts' / 'templates',\n        ],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.request\",",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "WSGI_APPLICATION = \"auth_system.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/5.2/ref/settings/#databases\nDATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": BASE_DIR / \"db.sqlite3\",\n    }\n}\n# Password validation",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "DATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": BASE_DIR / \"db.sqlite3\",\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.UserAttributeSimilarityValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.MinimumLengthValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.CommonPasswordValidator\",\n    },",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "LANGUAGE_CODE = \"en-us\"\nTIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = \"static/\"\n# Static files (CSS, JavaScript, Images)\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "TIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = \"static/\"\n# Static files (CSS, JavaScript, Images)\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = \"static/\"\n# Static files (CSS, JavaScript, Images)\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = \"static/\"\n# Static files (CSS, JavaScript, Images)\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]\n# Media files (User uploaded content)",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "STATIC_URL = \"static/\"\n# Static files (CSS, JavaScript, Images)\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]\n# Media files (User uploaded content)\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]\n# Media files (User uploaded content)\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\n# CORS settings",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "STATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]\n# Media files (User uploaded content)\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\n# CORS settings\nCORS_ALLOWED_ORIGINS = [",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\n# CORS settings\nCORS_ALLOWED_ORIGINS = [\n    \"http://localhost:3000\",\n    \"http://127.0.0.1:3000\",\n]\nCORS_ALLOW_CREDENTIALS = True",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\n# CORS settings\nCORS_ALLOWED_ORIGINS = [\n    \"http://localhost:3000\",\n    \"http://127.0.0.1:3000\",\n]\nCORS_ALLOW_CREDENTIALS = True\n# REST Framework settings",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\n# CORS settings\nCORS_ALLOWED_ORIGINS = [\n    \"http://localhost:3000\",\n    \"http://127.0.0.1:3000\",\n]\nCORS_ALLOW_CREDENTIALS = True\n# REST Framework settings\nREST_FRAMEWORK = {\n    \"DEFAULT_AUTHENTICATION_CLASSES\": (",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOWED_ORIGINS",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "CORS_ALLOWED_ORIGINS = [\n    \"http://localhost:3000\",\n    \"http://127.0.0.1:3000\",\n]\nCORS_ALLOW_CREDENTIALS = True\n# REST Framework settings\nREST_FRAMEWORK = {\n    \"DEFAULT_AUTHENTICATION_CLASSES\": (\n        \"rest_framework_simplejwt.authentication.JWTAuthentication\",\n    )",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_CREDENTIALS",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "CORS_ALLOW_CREDENTIALS = True\n# REST Framework settings\nREST_FRAMEWORK = {\n    \"DEFAULT_AUTHENTICATION_CLASSES\": (\n        \"rest_framework_simplejwt.authentication.JWTAuthentication\",\n    )\n}\nSIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(minutes=5),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=1),",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    \"DEFAULT_AUTHENTICATION_CLASSES\": (\n        \"rest_framework_simplejwt.authentication.JWTAuthentication\",\n    )\n}\nSIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(minutes=5),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=1),\n    \"ROTATE_REFRESH_TOKENS\": True,\n    \"BLACKLIST_AFTER_ROTATION\": True,",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SIMPLE_JWT",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "SIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(minutes=5),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=1),\n    \"ROTATE_REFRESH_TOKENS\": True,\n    \"BLACKLIST_AFTER_ROTATION\": True,\n    \"UPDATE_LAST_LOGIN\": True,\n    \"ALGORITHM\": \"HS256\",\n    \"SIGNING_KEY\": SECRET_KEY,\n    \"VERIFYING_KEY\": None,\n    \"AUTH_HEADER_TYPES\": (\"Bearer\",),",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_BACKEND",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "EMAIL_BACKEND = \"django.core.mail.backends.smtp.EmailBackend\"\nEMAIL_HOST = \"smtp.gmail.com\"  # Replace with your SMTP server\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = \"\"  # Replace with your email\nEMAIL_HOST_PASSWORD = \"\"  # Replace with your email password\nDEFAULT_FROM_EMAIL = \"\"  # Replace with your email\nAUTH_USER_MODEL = \"accounts.User\"\nPASSWORD_RESET_TIMEOUT = 600  # 10 minutes in seconds\nFIREBASE_CREDENTIALS_PATH = BASE_DIR / 'credentials' / 'firebase-adminsdk.json'",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "EMAIL_HOST = \"smtp.gmail.com\"  # Replace with your SMTP server\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = \"\"  # Replace with your email\nEMAIL_HOST_PASSWORD = \"\"  # Replace with your email password\nDEFAULT_FROM_EMAIL = \"\"  # Replace with your email\nAUTH_USER_MODEL = \"accounts.User\"\nPASSWORD_RESET_TIMEOUT = 600  # 10 minutes in seconds\nFIREBASE_CREDENTIALS_PATH = BASE_DIR / 'credentials' / 'firebase-adminsdk.json'\nFRONTEND_URL = \"http://localhost:3000\"",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_PORT",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "EMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = \"\"  # Replace with your email\nEMAIL_HOST_PASSWORD = \"\"  # Replace with your email password\nDEFAULT_FROM_EMAIL = \"\"  # Replace with your email\nAUTH_USER_MODEL = \"accounts.User\"\nPASSWORD_RESET_TIMEOUT = 600  # 10 minutes in seconds\nFIREBASE_CREDENTIALS_PATH = BASE_DIR / 'credentials' / 'firebase-adminsdk.json'\nFRONTEND_URL = \"http://localhost:3000\"",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_USE_TLS",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "EMAIL_USE_TLS = True\nEMAIL_HOST_USER = \"\"  # Replace with your email\nEMAIL_HOST_PASSWORD = \"\"  # Replace with your email password\nDEFAULT_FROM_EMAIL = \"\"  # Replace with your email\nAUTH_USER_MODEL = \"accounts.User\"\nPASSWORD_RESET_TIMEOUT = 600  # 10 minutes in seconds\nFIREBASE_CREDENTIALS_PATH = BASE_DIR / 'credentials' / 'firebase-adminsdk.json'\nFRONTEND_URL = \"http://localhost:3000\"",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_USER",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "EMAIL_HOST_USER = \"\"  # Replace with your email\nEMAIL_HOST_PASSWORD = \"\"  # Replace with your email password\nDEFAULT_FROM_EMAIL = \"\"  # Replace with your email\nAUTH_USER_MODEL = \"accounts.User\"\nPASSWORD_RESET_TIMEOUT = 600  # 10 minutes in seconds\nFIREBASE_CREDENTIALS_PATH = BASE_DIR / 'credentials' / 'firebase-adminsdk.json'\nFRONTEND_URL = \"http://localhost:3000\"",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_PASSWORD",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = \"\"  # Replace with your email password\nDEFAULT_FROM_EMAIL = \"\"  # Replace with your email\nAUTH_USER_MODEL = \"accounts.User\"\nPASSWORD_RESET_TIMEOUT = 600  # 10 minutes in seconds\nFIREBASE_CREDENTIALS_PATH = BASE_DIR / 'credentials' / 'firebase-adminsdk.json'\nFRONTEND_URL = \"http://localhost:3000\"",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_FROM_EMAIL",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "DEFAULT_FROM_EMAIL = \"\"  # Replace with your email\nAUTH_USER_MODEL = \"accounts.User\"\nPASSWORD_RESET_TIMEOUT = 600  # 10 minutes in seconds\nFIREBASE_CREDENTIALS_PATH = BASE_DIR / 'credentials' / 'firebase-adminsdk.json'\nFRONTEND_URL = \"http://localhost:3000\"",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_USER_MODEL",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "AUTH_USER_MODEL = \"accounts.User\"\nPASSWORD_RESET_TIMEOUT = 600  # 10 minutes in seconds\nFIREBASE_CREDENTIALS_PATH = BASE_DIR / 'credentials' / 'firebase-adminsdk.json'\nFRONTEND_URL = \"http://localhost:3000\"",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "PASSWORD_RESET_TIMEOUT",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "PASSWORD_RESET_TIMEOUT = 600  # 10 minutes in seconds\nFIREBASE_CREDENTIALS_PATH = BASE_DIR / 'credentials' / 'firebase-adminsdk.json'\nFRONTEND_URL = \"http://localhost:3000\"",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "FIREBASE_CREDENTIALS_PATH",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "FIREBASE_CREDENTIALS_PATH = BASE_DIR / 'credentials' / 'firebase-adminsdk.json'\nFRONTEND_URL = \"http://localhost:3000\"",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "FRONTEND_URL",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.settings",
+        "description": "auth_system.auth_system.settings",
+        "peekOfCode": "FRONTEND_URL = \"http://localhost:3000\"",
+        "detail": "auth_system.auth_system.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.urls",
+        "description": "auth_system.auth_system.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"admin/\", admin.site.urls),\n    path(\"api/auth/\", include(\"accounts.urls\")),\n    path(\"api/token/refresh/\", TokenRefreshView.as_view(), name=\"token_refresh\"),\n]",
+        "detail": "auth_system.auth_system.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "auth_system.auth_system.wsgi",
+        "description": "auth_system.auth_system.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "auth_system.auth_system.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "auth_system.manage",
+        "description": "auth_system.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'auth_system.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "auth_system.manage",
+        "documentation": {}
+    },
+    {
+        "label": "firestore_adminCallTransformer",
+        "kind": 6,
+        "importPath": "venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "description": "venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "peekOfCode": "class firestore_adminCallTransformer(cst.CSTTransformer):\n    CTRL_PARAMS: Tuple[str] = ('retry', 'timeout', 'metadata')\n    METHOD_TO_PARAMS: Dict[str, Tuple[str]] = {\n        'bulk_delete_documents': ('name', 'collection_ids', 'namespace_ids', ),\n        'create_backup_schedule': ('parent', 'backup_schedule', ),\n        'create_database': ('parent', 'database', 'database_id', ),\n        'create_index': ('parent', 'index', ),\n        'delete_backup': ('name', ),\n        'delete_backup_schedule': ('name', ),\n        'delete_database': ('name', 'etag', ),",
+        "detail": "venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "partition",
+        "kind": 2,
+        "importPath": "venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "description": "venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "peekOfCode": "def partition(\n    predicate: Callable[[Any], bool],\n    iterator: Sequence[Any]\n) -> Tuple[List[Any], List[Any]]:\n    \"\"\"A stable, out-of-place partition.\"\"\"\n    results = ([], [])\n    for i in iterator:\n        results[int(predicate(i))].append(i)\n    # Returns trueList, falseList\n    return results[1], results[0]",
+        "detail": "venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "fix_files",
+        "kind": 2,
+        "importPath": "venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "description": "venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "peekOfCode": "def fix_files(\n    in_dir: pathlib.Path,\n    out_dir: pathlib.Path,\n    *,\n    transformer=firestore_adminCallTransformer(),\n):\n    \"\"\"Duplicate the input dir to the output dir, fixing file method calls.\n    Preconditions:\n    * in_dir is a real directory\n    * out_dir is a real, empty directory",
+        "detail": "venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "firestoreCallTransformer",
+        "kind": 6,
+        "importPath": "venv.Scripts.fixup_firestore_v1_keywords",
+        "description": "venv.Scripts.fixup_firestore_v1_keywords",
+        "peekOfCode": "class firestoreCallTransformer(cst.CSTTransformer):\n    CTRL_PARAMS: Tuple[str] = ('retry', 'timeout', 'metadata')\n    METHOD_TO_PARAMS: Dict[str, Tuple[str]] = {\n        'batch_get_documents': ('database', 'documents', 'mask', 'transaction', 'new_transaction', 'read_time', ),\n        'batch_write': ('database', 'writes', 'labels', ),\n        'begin_transaction': ('database', 'options', ),\n        'commit': ('database', 'writes', 'transaction', ),\n        'create_document': ('parent', 'collection_id', 'document', 'document_id', 'mask', ),\n        'delete_document': ('name', 'current_document', ),\n        'get_document': ('name', 'mask', 'transaction', 'read_time', ),",
+        "detail": "venv.Scripts.fixup_firestore_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "partition",
+        "kind": 2,
+        "importPath": "venv.Scripts.fixup_firestore_v1_keywords",
+        "description": "venv.Scripts.fixup_firestore_v1_keywords",
+        "peekOfCode": "def partition(\n    predicate: Callable[[Any], bool],\n    iterator: Sequence[Any]\n) -> Tuple[List[Any], List[Any]]:\n    \"\"\"A stable, out-of-place partition.\"\"\"\n    results = ([], [])\n    for i in iterator:\n        results[int(predicate(i))].append(i)\n    # Returns trueList, falseList\n    return results[1], results[0]",
+        "detail": "venv.Scripts.fixup_firestore_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "fix_files",
+        "kind": 2,
+        "importPath": "venv.Scripts.fixup_firestore_v1_keywords",
+        "description": "venv.Scripts.fixup_firestore_v1_keywords",
+        "peekOfCode": "def fix_files(\n    in_dir: pathlib.Path,\n    out_dir: pathlib.Path,\n    *,\n    transformer=firestoreCallTransformer(),\n):\n    \"\"\"Duplicate the input dir to the output dir, fixing file method calls.\n    Preconditions:\n    * in_dir is a real directory\n    * out_dir is a real, empty directory",
+        "detail": "venv.Scripts.fixup_firestore_v1_keywords",
+        "documentation": {}
+    }
+]                                                                                                                                                                                                                                                                                                                                                                                    
