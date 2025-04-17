@@ -10,6 +10,7 @@ class User(AbstractUser):
     email = models.EmailField(_("email address"), unique=True,)
     is_verified = models.BooleanField(default=False,)
     image = models.ImageField(upload_to='profile_images/', null=True, blank=True)
+    
 
     USERNAME_FIELD = "email"
     REQUIRED_FIELDS = ["username"]
