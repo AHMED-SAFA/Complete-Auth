@@ -3,7 +3,7 @@ import { createContext, useContext, useState, useEffect } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { jwtDecode } from "jwt-decode";
-import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
+import { getAuth, signInWithPopup } from "firebase/auth";
 import { auth, googleProvider } from "../firebase";
 
 const AuthContext = createContext();
@@ -63,7 +63,6 @@ export const AuthProvider = ({ children }) => {
     try {
       // Configure popup settings to handle COOP issues
       const auth = getAuth();
-      const provider = new GoogleAuthProvider();
       // Add these settings
       auth.settings.appVerificationDisabledForTesting = true;
 
@@ -209,12 +208,6 @@ export const AuthProvider = ({ children }) => {
         "http://127.0.0.1:8000/api/auth/verify-email/",
         { email, code }
       );
-
-      // Store user data and tokens if available in the verification response
-      if (response.data.access && response.data.refresh) {
-        setUser(response.data.user);
-      }
-
       console.log("Email verification response:", response);
       return true;
     } catch (error) {
@@ -341,7 +334,6 @@ export const AuthProvider = ({ children }) => {
                 );
                 setUser(response.data);
               } catch (profileError) {
-                // If profile fetch fails, fall back to decoded token data
                 setUser(decoded);
               }
             }
@@ -370,7 +362,6 @@ export const AuthProvider = ({ children }) => {
         requestPasswordReset,
         resetPassword,
         loginWithGoogle,
-        // updateProfile,
       }}
     >
       {children}

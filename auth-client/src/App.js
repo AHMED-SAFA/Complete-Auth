@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { AuthProvider } from "./context/AuthContext";
 import ProtectedRoute from "./components/ProtectedRoute";
+import AuthRedirectRoute from "./components/AuthRedirectRoute";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
@@ -21,13 +22,45 @@ function App() {
               </ProtectedRoute>
             }
           />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
-          <Route path="/verify-email" element={<VerifyEmail />} />
-          <Route path="/forgot-password" element={<ForgotPassword />} />
+          <Route
+            path="/login"
+            element={
+              <AuthRedirectRoute>
+                <Login />
+              </AuthRedirectRoute>
+            }
+          />
+          <Route
+            path="/register"
+            element={
+              <AuthRedirectRoute>
+                <Register />
+              </AuthRedirectRoute>
+            }
+          />
+          <Route
+            path="/verify-email"
+            element={
+              <AuthRedirectRoute>
+                <VerifyEmail />
+              </AuthRedirectRoute>
+            }
+          />
+          <Route
+            path="/forgot-password"
+            element={
+              <AuthRedirectRoute>
+                <ForgotPassword />
+              </AuthRedirectRoute>
+            }
+          />
           <Route
             path="/reset-password/:uidb64/:token"
-            element={<ResetPassword />}
+            element={
+              <AuthRedirectRoute>
+                <ResetPassword />
+              </AuthRedirectRoute>
+            }
           />
         </Routes>
       </AuthProvider>

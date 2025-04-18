@@ -33,7 +33,7 @@ class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
             raise serializers.ValidationError(
                 {"detail": "Email not verified. Please verify your email first."}
             )
-        
+
         # Add custom responses
         data["user"] = {
             "id": self.user.id,
@@ -72,7 +72,7 @@ class RegisterSerializer(serializers.ModelSerializer):
         user = User.objects.create(
             username=validated_data["username"],
             email=validated_data["email"],
-            image=validated_data.get("image", None)
+            image=validated_data.get("image", None),
         )
 
         user.set_password(validated_data["password"])
@@ -84,13 +84,7 @@ class RegisterSerializer(serializers.ModelSerializer):
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = (
-            "id",
-            "username",
-            "email",
-            "is_verified",
-            "image"
-        )
+        fields = ("id", "username", "email", "is_verified", "image")
 
 
 class SetNewPasswordSerializer(serializers.Serializer):
@@ -130,7 +124,6 @@ class SetNewPasswordSerializer(serializers.Serializer):
             raise serializers.ValidationError(
                 {"error": "The reset link is invalid"}, code="authorization"
             )
-
 
 # Add this new serializer
 class VerifyEmailSerializer(serializers.Serializer):
