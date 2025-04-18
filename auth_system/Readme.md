@@ -271,7 +271,7 @@ SQLite is used as the default database for development. For production, switchin
 3. Create a virtual environment:
    ```
    python -m venv venv
-   source venv/bin/activate
+   source venv/Scripts/activate
    ```
 
 4. Install dependencies:
