@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+<h1 align="center">Frontend (React Js)</h1>
+<p align="center">
+Frontend is built with React js. 
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+- **Login Page**
+- **Register Page**
+- **Forgot Password Page**
+- **Reset Password Page**
+- **Verify Email Page**
+- **Home Page**
 
-## Available Scripts
+## UI Libraries Used
+- [React](https://react.dev/learn/creating-a-react-app)
+- [Tailwind CSS](https://tailwindcss.com/docs/installation/framework-guides/react-router)
+- [Material UI](https://mui.com/)
 
-In the project directory, you can run:
+## Pages Preview:
+<div align="center">
+<details>
+<summary>
+<strong>Login Page</strong> 
+</summary>
+<br>
+  
+![login](https://github.com/user-attachments/assets/5b7e4539-18aa-4eed-86d3-05cb0f07ed00)
 
-### `npm start`
+</details>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<details>
+<summary>
+<strong>Register Page</strong> 
+</summary>
+<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![register](https://github.com/user-attachments/assets/02c24184-8de9-4c11-bc5e-96b21f8105a2)
 
-### `npm test`
+</details>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<details>
+<summary>
+<strong>Forgot Password Page</strong> 
+</summary>
+<br>
 
-### `npm run build`
+![forget](https://github.com/user-attachments/assets/fe50b814-e5f3-400a-becf-578ff9980edb)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+</details>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<details>
+<summary>
+<strong>Reset Password Page</strong> 
+</summary>
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![reset](https://github.com/user-attachments/assets/561db76d-9c80-4696-a24d-88702f8a131a)
 
-### `npm run eject`
+</details>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<details>
+<summary>
+<strong>Verify Email Page</strong> 
+</summary>
+<br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![verify](https://github.com/user-attachments/assets/04c1d763-162a-48d5-a264-ac7ef7e34240)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+</details>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<details>
+<summary>
+<strong>Home Page</strong> 
+</summary>
+<br>
 
-## Learn More
+![home](https://github.com/user-attachments/assets/5e034473-09e2-4414-87fb-386fd0549f66)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+</details>
+</div>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Installation
+1. Clone the repository:
+   ```
+   git clone https://github.com/AHMED-SAFA/Complete-Auth.git
+   ```
 
-### Code Splitting
+2. Navigate to the project directory: 
+   ```
+   cd Complete-Auth
+   cd auth-client
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. Install dependencies: 
+   ```
+   npm i
+   ```
 
-### Analyzing the Bundle Size
+4. Start the development server: 
+   ```
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+5. Visit the site:
+   ```
+   http://localhost:3000/
+   ```
